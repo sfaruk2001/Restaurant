@@ -1,1 +1,3 @@
-alert("Hello World!");
+import homepageLoad from "./home.js";
+
+homepageLoad();
