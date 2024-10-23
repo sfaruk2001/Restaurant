@@ -1,5 +1,6 @@
 import homepageLoad from "./home.js";
 import menuLoad from "./menu.js";
+import contactLoad from "./contact.js";
 
 homepageLoad();
 
@@ -18,3 +19,10 @@ menu.addEventListener('click', () => {
     clearContent();
     menuLoad();
 });
+
+let contact = document.querySelector('nav button:nth-child(3)');
+contact.addEventListener('click', () => {
+    clearContent();
+    contactLoad();
+});
+
